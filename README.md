@@ -2,6 +2,9 @@
 ## Juan Esteban Lozano 
 
 ### 100 PALABRAS DE LO QUE HACE SU APLICACION
+Este proyecto HTML/PHP crea una página web sobre Lionel Messi usando Bootstrap para un diseño adaptable. Incluye navegación, biografía, logros, estadísticas, carrusel de imágenes y un formulario de registro. Al hacer clic en “TABLA REGISTRO”, se muestra un modal con datos de una base MySQL usando PHP y PDO, permitiendo editar o eliminar registros. La clase Conexion establece la conexión a la base de datos usando constantes definidas en Configuraciones.php. Un script PHP recibe datos por POST y los guarda en la base con sentencias preparadas para evitar inyección SQL. El sistema combina diseño, funcionalidad e interacción con bases de datos.gi
+
+
 
 #BAKUP BASE DE DATOS
 
