@@ -54,7 +54,7 @@ $registro = $con->fetch(PDO::FETCH_ASSOC);
         <!-- Aquí va el contenido de tu página, por ejemplo el formulario de actualización -->
         <h2>Actualizar Registro</h2>
 
-        <form action="Controller/registro.php" method="POST">
+        <form action="Controller/UpdateController.php" method="POST">
 
 <div class="container">
   <h3>Formulario de Registro</h3>
@@ -62,7 +62,7 @@ $registro = $con->fetch(PDO::FETCH_ASSOC);
       <div class="row">
         <div class="col">
         <label for="Name" class="">Id</label>
-      <input type="text" class="form-control" id="Name" value="<?php  echo  htmlspecialchars($registro['Id'])?>" name="Id">
+      <input type="text" class="form-control" id="id" value="<?php  echo  htmlspecialchars($registro['Id'])?>" name="id">
         </div>
         <div class="col">
         <label fot="Nombre" class="">Nombre</label>
