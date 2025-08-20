@@ -62,7 +62,7 @@ $registro = $con->fetch(PDO::FETCH_ASSOC);
       <div class="row">
         <div class="col">
         <label for="Name" class="">Id</label>
-      <input type="text" class="form-control" id="id" value="<?php  echo  htmlspecialchars($registro['Id'])?>" name="id">
+      <input type="text" class="form-control" id="id" value="<?php  echo  htmlspecialchars($registro['Id'])?>" name="id" readonly>
         </div>
         <div class="col">
         <label fot="Nombre" class="">Nombre</label>
